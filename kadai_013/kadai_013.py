@@ -12,4 +12,5 @@ def total(price,tax):
   total = price + price * tax
   return total
 
-total(6395,tax)
+# total(6395,tax)
+print(f"{total(6395,tax)}円")
