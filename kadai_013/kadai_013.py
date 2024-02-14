@@ -10,6 +10,6 @@ Original file is located at
 tax = 0.1
 def total(price,tax):
   total = price + price * tax
-  print(f"{total}円")
+  return total
 
 total(6395,tax)
